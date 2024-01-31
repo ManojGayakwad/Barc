@@ -67,8 +67,8 @@ const BarcodeScanner = () => {
   };
 
   return (
-    <Box>
-      <div id="barcode-scanner" style={{ width: "100%" }}></div>
+    <Box style={{display:"block", marginLeft:"220px"}}>
+      <div id="barcode-scanner"></div>
       <Button
         onClick={handleScanButtonClick}
         disabled={scanning} // Disable button while scanning is in progress
